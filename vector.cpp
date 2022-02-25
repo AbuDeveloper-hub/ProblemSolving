@@ -1,12 +1,18 @@
 #include<iostream>
-#include<vector>
+#include<vector> //vector library
 
 using namespace std;
 
 int main()
 {
-    vector<int> vect;
-    vect.push_back(10);
-    cout<<vect[0]; 
+    //creating vector
+    vector<int> vect(5,10);
+    vector<int> vectr{9,8,7,6,5,4,3,2,1,0};   
+    
+    for(int i=0;i<vectr.size();i++)
+    {
+        cout<<vectr[i]<<" ";
+    }
+    cout<<vectr.capacity();
     return 0;
 }
