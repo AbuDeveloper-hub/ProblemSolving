@@ -7,6 +7,6 @@ int main()
 {
     vector<int> vect;
     vect.push_back(10);
-    cout<<vect[0]; //super bro
+    cout<<vect[0]; 
     return 0;
 }
